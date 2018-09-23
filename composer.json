@@ -1,0 +1,21 @@
+{
+    "name": "fosphatic/uikit3-theme-one",
+    "type": "pagekit-theme",
+    "version": "1.0.0",
+    "title": "UIKit3 One",
+    "description": "Pagekit's default theme migrated to UIKit 3.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Suchan",
+            "email": "sven@suchan.me",
+            "homepage": "https://www.suchan-webdesign.de"
+        }
+    ],
+    "extra": {
+        "image": "image.jpg"
+    },
+    "archive": {
+        "exclude": ["node_modules", "!/app", "!/css", "/app/assets", "gulpfile.js", "bower.js", "package.js"]
+    }
+}
