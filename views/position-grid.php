@@ -1,7 +1,7 @@
 <div class="uk-grid-match" uk-grid>
 <?php foreach ($widgets as $widget) : ?>
 
-<div class="uk-width-1-<?= count($widgets) ?>">
+<div class="uk-width-1-<?= count($widgets) ?>@s">
 
     <div class="uk-panel <?= $widget->theme['panel'] ?> <?= $widget->theme['alignment'] ? 'uk-text-center' : '' ?> <?= $widget->theme['html_class'] ?>">
 
