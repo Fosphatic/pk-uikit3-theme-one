@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:600,400,300';
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:400';
-/*! UIkit 3.0.0-rc.16 | http://www.getuikit.com | (c) 2014 - 2018 YOOtheme | MIT License */
+/*! UIkit 3.0.0-rc.17 | http://www.getuikit.com | (c) 2014 - 2018 YOOtheme | MIT License */
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -412,11 +412,6 @@ pre code {
 }
 /* Selection pseudo-element
  ========================================================================== */
-::-moz-selection {
-  background: #39f;
-  color: #fff;
-  text-shadow: none;
-}
 ::selection {
   background: #39f;
   color: #fff;
@@ -450,17 +445,23 @@ template {
 /*
  * Breakpoints
  */
-.var-media-s::before {
+.uk-breakpoint-s::before {
   content: '640px';
 }
-.var-media-m::before {
+.uk-breakpoint-m::before {
   content: '960px';
 }
-.var-media-l::before {
+.uk-breakpoint-l::before {
   content: '1200px';
 }
-.var-media-xl::before {
+.uk-breakpoint-xl::before {
   content: '1600px';
+}
+:root {
+  --uk-breakpoint-s: 640px;
+  --uk-breakpoint-m: 960px;
+  --uk-breakpoint-l: 1200px;
+  --uk-breakpoint-xl: 1600px;
 }
 /* ========================================================================
    Component: Link
@@ -743,6 +744,7 @@ a.uk-link-reset:hover,
 }
 /*
  * Bullet
+ * 1. Reset display table which causes issues in combination with multi column layouts
  */
 .uk-list-bullet > li {
   position: relative;
@@ -758,6 +760,8 @@ a.uk-link-reset:hover,
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%226%22%20height%3D%226%22%20viewBox%3D%220%200%206%206%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Ccircle%20fill%3D%22%23666%22%20cx%3D%223%22%20cy%3D%223%22%20r%3D%223%22%20%2F%3E%0A%3C%2Fsvg%3E");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  /* 1 */
+  display: block;
 }
 /* Size modifier
  ========================================================================== */
@@ -4291,11 +4295,10 @@ ul.uk-nav-sub {
   /* 1 */
   flex-wrap: wrap;
   /* 2 */
-  padding-left: 10px;
+  margin-left: -20px;
   /* 3 */
-
+  padding: 0;
   list-style: none;
-  font-size: large;
 }
 /*
  * 1. Space is allocated solely based on content dimensions: 0 0 auto
@@ -4306,7 +4309,7 @@ ul.uk-nav-sub {
   /* 1 */
   flex: none;
   /* 2 */
-  padding-left: 10px;
+  padding-left: 20px;
   /* 3 */
   position: relative;
 }
@@ -4318,11 +4321,9 @@ ul.uk-nav-sub {
  */
 .uk-pagination > * > * {
   /* 1 */
-  display: inline-flex;
+  display: block;
   /* 2 */
   color: #999;
-
-  font-size: large;
   transition: color 0.1s ease-in-out;
 }
 /* Hover + Focus */
@@ -4339,10 +4340,6 @@ ul.uk-nav-sub {
 .uk-pagination > .uk-disabled > * {
   color: #999;
 }
-.uk-pagination>li:nth-child(n+2) {
- margin-left:5px
-}
-
 /* ========================================================================
    Component: Tab
  ========================================================================== */
@@ -5633,9 +5630,14 @@ ul.uk-nav-sub {
 .uk-leader-fill.uk-leader-hide::after {
   display: none;
 }
-/* Pass fill character to JS */
-.var-leader-fill::before {
+/*
+ * Pass fill character to JS
+ */
+.uk-leader-fill-content::before {
   content: '.';
+}
+:root {
+  --uk-leader-fill-content: .;
 }
 /* ========================================================================
    Component: Iconnav
