@@ -1,7 +1,7 @@
 {
     "name": "fosphatic/uikit3-theme-one",
     "type": "pagekit-theme",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "title": "UIKit3 One",
     "description": "Pagekit's default theme migrated to UIKit 3.",
     "license": "MIT",

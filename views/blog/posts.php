@@ -53,7 +53,7 @@
                 <?php if ($i == $page): ?>
                 <li class="uk-active"><span><?=$i?></span></li>
                 <?php else: ?>
-                <li>
+                </li>
                     <a href="<?= $view->url('@blog/page', ['page' => $i]) ?>"><?=$i?></a>
                 <li>
                 <?php endif; ?>
