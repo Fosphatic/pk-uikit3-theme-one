@@ -53,9 +53,9 @@
                 <?php if ($i == $page): ?>
                 <li class="uk-active"><span><?=$i?></span></li>
                 <?php else: ?>
-                </li>
-                    <a href="<?= $view->url('@blog/page', ['page' => $i]) ?>"><?=$i?></a>
                 <li>
+                    <a href="<?= $view->url('@blog/page', ['page' => $i]) ?>"><?=$i?></a>
+                </li>
                 <?php endif; ?>
 
             <?php elseif($i==1): ?>
