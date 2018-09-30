@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.4 (September 30, 2018)
+
+### Bugfix
+- Pagination in blog extension
+
 ## 1.0.3 (September 30, 2018)
 
 ### Changes
