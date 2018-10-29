@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.5 (October 29, 2018)
+
+### Changes
+- Upgraded UIKit v3 to RC20
+
+### Bugfix
+- mobile navigation entries with child items
+
 ## 1.0.4 (September 30, 2018)
 
 ### Bugfix
