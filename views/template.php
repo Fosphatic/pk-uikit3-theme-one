@@ -71,7 +71,7 @@
         <?php endif; ?>
 
         <div id="tm-main" class="tm-main uk-block <?= $params['main_style'] ?>">
-            <div class="uk-container uk-container-center">
+            <div class="uk-container uk-container-center" uk-height-viewport="expand: true">
 
                 <div class="uk-grid-match" data-uk-grid data-uk-margin>
 

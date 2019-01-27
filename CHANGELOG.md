@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.7 (January 27, 2019)
+
+### Changes
+- Applied SAB's improvement suggestion to expand the main container if the height of the page is not filling the screens viewport height
+
 ## 1.0.6 (January 27, 2019)
 
 ### Changes
