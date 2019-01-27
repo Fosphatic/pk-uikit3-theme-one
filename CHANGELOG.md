@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.6 (January 27, 2019)
+
+### Changes
+- Upgraded UIKit v3 to final Release 3.0.2
+
+### Bugfix
+- Settings changes for panel elements as sections not applying
+
 ## 1.0.5 (October 29, 2018)
 
 ### Changes
