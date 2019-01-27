@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.8 (January 27, 2019)
+
+### Bugfix
+- Transparent navbar behavior on scroll up when in page settings invert colors option was not activated
+
+# Changelog
+
 ## 1.0.7 (January 27, 2019)
 
 ### Changes

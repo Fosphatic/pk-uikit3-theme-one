@@ -12135,6 +12135,11 @@ UIKit3 Theme One Modifications
     Box-shadow: 0px 3px 8px -4px rgba(0, 0, 0, 0.15);
     z-index: 1;
 }
+.tm-navbar.tm-navbar-overlay.tm-navbar-transparent.uk-sticky.uk-active.uk-sticky-below.uk-sticky-fixed {
+    background-color: #fff;
+    Box-shadow: 0px 3px 8px -4px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+}
 /* Blocks
  ========================================================================== */
 .tm-hero-height {
@@ -12220,9 +12225,6 @@ UIKit3 Theme One Modifications
 .uk-block-default+.uk-block-default,.uk-block-muted+.uk-block-muted,.uk-block-primary+.uk-block-primary,.uk-block-secondary+.uk-block-secondary {
  padding-top:0
 }
-
-
-
 .uk-contrast h1, .uk-contrast h2, .uk-contrast h3, .uk-contrast h4, .uk-contrast h5, .uk-contrast h6 {
     color: #fff;
 }
