@@ -11870,7 +11870,7 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-text-muted,
 .uk-overlay-primary .uk-text-muted,
 .uk-offcanvas-bar .uk-text-muted {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.5);
 }
 .uk-light .uk-text-emphasis,
 .uk-section-primary:not(.uk-preserve-color) .uk-text-emphasis,
@@ -11883,7 +11883,7 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-text-emphasis,
 .uk-overlay-primary .uk-text-emphasis,
 .uk-offcanvas-bar .uk-text-emphasis {
-  color: #fff !important;
+  color: #fff;
 }
 .uk-light .uk-text-primary,
 .uk-section-primary:not(.uk-preserve-color) .uk-text-primary,
@@ -11896,7 +11896,7 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-text-primary,
 .uk-overlay-primary .uk-text-primary,
 .uk-offcanvas-bar .uk-text-primary {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(255, 255, 255, 0.7);
 }
 .uk-light .uk-column-divider,
 .uk-section-primary:not(.uk-preserve-color) .uk-column-divider,
@@ -12471,4 +12471,10 @@ UIKit3 Theme One Modifications
 }
 .uk-overlay:hover .uk-overlay-caption,.uk-overlay.uk-hover .uk-overlay-caption,.uk-overlay-toggle:hover .uk-overlay-caption,.uk-overlay-toggle.uk-hover .uk-overlay-caption {
  opacity:1
+}
+.uk-text-primary, .uk-text-primary h1, .uk-text-primary h2, .uk-text-primary h3, .uk-text-primary h4, .uk-text-primary h5, .uk-text-primary h6 {
+  color: #1e87f0 !important;
+}
+.uk-text-emphasis, .uk-text-emphasis h1, .uk-text-emphasis h2, .uk-text-emphasis h3, .uk-text-emphasis h4, .uk-text-emphasis h5, .uk-text-emphasis h6 {
+  color: #333 !important;
 }

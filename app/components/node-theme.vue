@@ -64,8 +64,8 @@
             <div class="uk-form-controls">
                 <select id="form-top-style" class="uk-form-width-large" v-model="node.theme.top_style">
                   <option value="uk-section uk-section-default">{{ 'Default' | trans }}</option>
-                  <option value="uk-section uk-section-primary">{{ 'Default' | trans }}</option>
-                  <option value="uk-section uk-section-secondary">{{ 'Default' | trans }}</option>
+                  <option value="uk-section uk-section-primary">{{ 'Primary' | trans }}</option>
+                  <option value="uk-section uk-section-secondary">{{ 'Secondary' | trans }}</option>
                   <option value="uk-section uk-section-muted">{{ 'Muted' | trans }}</option>
                 </select>
             </div>
@@ -76,8 +76,8 @@
             <div class="uk-form-controls">
                 <select id="form-main-style" class="uk-form-width-large" v-model="node.theme.main_style">
                   <option value="uk-section uk-section-default">{{ 'Default' | trans }}</option>
-                  <option value="uk-section uk-section-primary">{{ 'Default' | trans }}</option>
-                  <option value="uk-section uk-section-secondary">{{ 'Default' | trans }}</option>
+                  <option value="uk-section uk-section-primary">{{ 'Primary' | trans }}</option>
+                  <option value="uk-section uk-section-secondary">{{ 'Secondary' | trans }}</option>
                   <option value="uk-section uk-section-muted">{{ 'Muted' | trans }}</option>
                 </select>
             </div>
@@ -87,10 +87,10 @@
             <label for="form-bottom-style" class="uk-form-label">Bottom {{ 'Position' | trans }}</label>
             <div class="uk-form-controls">
                 <select id="form-bottom-style" class="uk-form-width-large" v-model="node.theme.bottom_style">
-                    <option value="uk-section uk-section-default">{{ 'Default' | trans }}</option>
-                    <option value="uk-section uk-section-primary">{{ 'Default' | trans }}</option>
-                    <option value="uk-section uk-section-secondary">{{ 'Default' | trans }}</option>
-                    <option value="uk-section uk-section-muted">{{ 'Muted' | trans }}</option>
+                  <option value="uk-section uk-section-default uk-dark">{{ 'Default' | trans }}</option>
+                  <option value="uk-section uk-section-primary uk-light">{{ 'Primary' | trans }}</option>
+                  <option value="uk-section uk-section-secondary uk-light">{{ 'Secondary' | trans }}</option>
+                  <option value="uk-section uk-section-muted uk-dark">{{ 'Muted' | trans }}</option>
                 </select>
                 <p class="uk-form-help-block uk-margin">{{ 'Note: Position settings only work if you publish a widget in that position.' | trans }}</p>
             </div>

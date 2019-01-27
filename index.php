@@ -44,9 +44,9 @@ return [
         'hero_contrast' => '',
         'hero_parallax' => '',
         'navbar_transparent' => '',
-        'top_style' => 'uk-block-muted',
-        'main_style' => 'uk-block-default',
-        'bottom_style' => 'uk-block-muted'
+        'top_style' => '',
+        'main_style' => '',
+        'bottom_style' => ''
 
     ],
 
