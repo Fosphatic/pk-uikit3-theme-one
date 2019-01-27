@@ -75,12 +75,12 @@
 
                 <div class="uk-grid-match" data-uk-grid data-uk-margin>
 
-                    <main class="<?= $view->position()->exists('sidebar') ? 'uk-width-3-4' : 'uk-width-1-1'; ?>">
+                    <main class="<?= $view->position()->exists('sidebar') ? 'uk-width-3-4@m' : 'uk-width-1-1'; ?>">
                         <?= $view->render('content') ?>
                     </main>
 
                     <?php if ($view->position()->exists('sidebar')) : ?>
-                    <aside class="uk-width-1-4 <?= $params['sidebar_first'] ? 'uk-flex-first@m' : ''; ?>">
+                    <aside class="uk-width-1-4@m <?= $params['sidebar_first'] ? 'uk-flex-first@m' : ''; ?>">
                         <?= $view->position('sidebar', 'position-panel.php') ?>
                     </aside>
                     <?php endif ?>

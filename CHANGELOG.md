@@ -6,7 +6,8 @@
 - Upgraded UIKit v3 to final Release 3.0.2
 
 ### Bugfix
-- Settings changes for panel elements as sections not applying
+- Settings changes for widget panels as site sections not applying
+- Sidebar behavior on small screens
 
 ## 1.0.5 (October 29, 2018)
 

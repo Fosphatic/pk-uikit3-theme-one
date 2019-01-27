@@ -63,10 +63,10 @@
             <label for="form-top-style" class="uk-form-label">Top {{ 'Position' | trans }}</label>
             <div class="uk-form-controls">
                 <select id="form-top-style" class="uk-form-width-large" v-model="node.theme.top_style">
-                  <option value="uk-section uk-section-default">{{ 'Default' | trans }}</option>
-                  <option value="uk-section uk-section-primary">{{ 'Primary' | trans }}</option>
-                  <option value="uk-section uk-section-secondary">{{ 'Secondary' | trans }}</option>
-                  <option value="uk-section uk-section-muted">{{ 'Muted' | trans }}</option>
+                  <option value="uk-section uk-section-default uk-dark">{{ 'Default' | trans }}</option>
+                  <option value="uk-section uk-section-primary uk-light">{{ 'Primary' | trans }}</option>
+                  <option value="uk-section uk-section-secondary uk-light">{{ 'Secondary' | trans }}</option>
+                  <option value="uk-section uk-section-muted uk-dark">{{ 'Muted' | trans }}</option>
                 </select>
             </div>
         </div>
@@ -75,10 +75,10 @@
             <label for="form-main-style" class="uk-form-label">Main {{ 'Position' | trans }}</label>
             <div class="uk-form-controls">
                 <select id="form-main-style" class="uk-form-width-large" v-model="node.theme.main_style">
-                  <option value="uk-section uk-section-default">{{ 'Default' | trans }}</option>
-                  <option value="uk-section uk-section-primary">{{ 'Primary' | trans }}</option>
-                  <option value="uk-section uk-section-secondary">{{ 'Secondary' | trans }}</option>
-                  <option value="uk-section uk-section-muted">{{ 'Muted' | trans }}</option>
+                  <option value="uk-section uk-section-default uk-dark">{{ 'Default' | trans }}</option>
+                  <option value="uk-section uk-section-primary uk-light">{{ 'Primary' | trans }}</option>
+                  <option value="uk-section uk-section-secondary uk-light">{{ 'Secondary' | trans }}</option>
+                  <option value="uk-section uk-section-muted uk-dark">{{ 'Muted' | trans }}</option>
                 </select>
             </div>
         </div>
